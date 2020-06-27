@@ -1,0 +1,87 @@
+OVERLAYS
+    ">Saving","> Sauvegarde en cours"
+    ">Checking for updates",">Vérification des mises à jour"
+
+BUTTONS
+    "> Settings","> Paramètres"
+
+
+MENU ITEMS
+    ">Current page",">Page courante"
+    ">Menu",">Menu"
+    ">Files",">Fichiers"
+    ">Themes",">Thèmes
+    ">Plugins",">Extensions"
+    ">Security",">Sécurité"
+
+
+CURRENT PAGE
+    ">Page title",">Titre de la page"
+    ">Page keywords",">Mots clés de la page"
+    ">Page description",">Description de la page"
+    "> Delete page","> Supprimer la page"
+    "return confirm\('Delete (.*?)\?'\)","return confirm('Confirmer la suppression de : $1.')"
+
+
+MENU
+    ">Website title","> Titre du site Web"
+    ">Page to display on homepage","> Page à afficher en tant que page d’accueil"
+    ">visit",">Consulter"
+    "> Add page","> Ajouter une page"
+
+
+FILES
+    ">Upload","> Envoyer"
+    ">Delete files","> Supprimer des fichiers"
+
+
+THEMES AND PLUGINS
+    "> Check for updates","> Vérifier les mises à jour"
+    "return confirm\('Remove (.*?)\?'\)","return confirm('Confirmer la suppression de : $1.')"
+    ">Active",">Activé"
+    "return confirm\('Activate (.*?) theme\?'\)","return confirm('Confirmer l’activation de : $1.')"
+    "> Activate","> Activer"
+    "> More info","> Plus d’informations"
+    "> Install","> Installer"
+    ">Installed version:",">Version installée :"
+    ">Custom repository",">Dépôt de fichiers personnalisé"
+    "Enter URL to custom repository","Merci de saisir l’adresse URL du dépôt de fichiers personnalisé"
+    "> Add", "> Ajouter"
+    "> Read more about custom repositories",">En savoir plus sur les dépôts de fichiers personnalisés"
+
+
+SECURITY
+    ">Admin login URL","> Adresse URL de connexion"
+    ">Save your login URL to log into your website next time:",">Merci de noter l’adresse URL de connexion au site Web pour les prochaines connexions "
+    ">Password",">Mot de passe"
+    "Old password","Ancien mot de passe"
+    "New password","Nouveau mot de passe"
+    "> Change password","> Modifier le mot de passe"
+
+    "> How to restore backup","> En savoir plus sur la restauration des sauvegardes"
+    ">Improved security \(Apache only\)",">Sécurité améliorée (Uniquement pour Apache)"
+    ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">Activation de la redirection HTTPS avec WWW, mise en cache de 30 jours, autorisation uniquement des balises « iframes » ayant la même origine & prévention contre l’inspection du contenu des types de médias."
+    ">ON \(warning: may break your website\)",">Activer (Attention : le site Web peut ne plus fonctionner)"
+    ">OFF \(reset htaccess to default\)",">Désactiver (Réinitialise le fichier .htaccess)"
+    "> Read more before enabling","> En savoir plus sur le mode sécurité"
+    ">Backup","> Sauvegarde"
+    "> Backup website","> Sauvegarder le site Web"
+    ">Last 5 logins",">Les 5 dernières connexions"
+
+
+STATISTICS
+    ">Statistics",">Statistiques"
+    ">Today",">Aujourd’hui"
+    ">This week",">Cette semaine"
+    ">Most popular page",">Page la plus populaire"
+    ">Pageviews last two weeks",">Pages consultées ces 2 dernières semaines"
+    ">Sessions last two weeks",">Visites de ces 2 dernières semaines"
+    ">Sessions",">Visites"
+    ">Pageviews",">Pages vues"
+
+
+FOOTER
+    ">News",">Nouvelles"
+    ">Community",">Forum"
+    ">Docs",">Documentation"
+    ">Donate",">Donation"
