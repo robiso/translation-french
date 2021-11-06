@@ -1,89 +1,89 @@
 OVERLAYS
-    ">Saving","> Sauvegarde en cours"
-    ">Checking for updates",">Vérification des mises à jour"
+    ">Saving","> Sauvegarder"
+    ">Checking for updates",">Vérifier mises à jour"
 
 
 BUTTONS
-    "> Settings","> Paramètres"
+    "> Settings","> Réglages"
 
 
 MENU ITEMS
     ">Current page",">Page courante"
     ">Menu",">Menu"
     ">Files",">Fichiers"
-    ">Themes",">Thèmes
-    ">Plugins",">Extensions"
+    ">Themes",">Thèmes"
+    ">Plugins",">Plugins"
     ">Security",">Sécurité"
 
 
 CURRENT PAGE
     ">Page title",">Titre de la page"
-    ">Page keywords",">Mots clés de la page"
+    ">Page keywords",">Mots-clés de la page"
     ">Page description",">Description de la page"
     "> Delete page","> Supprimer la page"
-    "return confirm\('Delete (.*?)\?'\)","return confirm('Confirmer la suppression de : $1.')"
+    "return confirm\('Delete (.*?)\?'\)","return confirm('Supprimer $1?')"
 
 
 MENU
-    ">Website title","> Titre du site Web"
-    ">Page to display on homepage","> Page à afficher en tant que page d’accueil"
-    ">visit",">Consulter"
+    ">Website title","> Titre du site"
+    ">Page to display on homepage","> Page à afficher en page d'accueil"
+    ">visit",">Afficher"
     "> Add page","> Ajouter une page"
 
 
 FILES
-    ">Upload","> Envoyer"
-    ">Delete files","> Supprimer des fichiers"
+    ">Upload","> Envoi"
+    ">Delete files","> Supprimer les fichiers"
 
 
 THEMES AND PLUGINS
-    "> Check for updates","> Vérifier les mises à jour"
-    "return confirm\('Remove (.*?)\?'\)","return confirm('Confirmer la suppression de : $1.')"
-    ">Active",">Activé"
-    "return confirm\('Activate (.*?) theme\?'\)","return confirm('Confirmer l’activation de : $1.')"
+    "> Check for updates","> Vérifier les nouveautés"
+    "return confirm\('Remove (.*?)\?'\)","return confirm('Supprimer $1?')"
+    ">Active",">V Actif"
+    "return confirm\('Activate (.*?) theme\?'\)","return confirm('Activer $1?')"
     "> Activate","> Activer"
-    "> More info","> Plus d’informations"
+    "> More info","> Plus d'infos"
     "> Install","> Installer"
-    ">Installed version:",">Version installée :"
-    ">Custom repository",">Dépôt de fichiers personnalisé"
-    "Enter URL to custom repository","Merci de saisir l’adresse URL du dépôt de fichiers personnalisé"
+    ">Installed version:",">Version installée:"
+    ">Custom repository",">Dossier personnalisé"
+    "Enter URL to custom repository","Entrer l'URL du dossier personnalisé"
     "> Add", "> Ajouter"
-    "> Read more about custom repositories",">En savoir plus sur les dépôts de fichiers personnalisés"
+    "> Read more about custom repositories",">En savoir plus sur les dossiers personnalisés"
 
 
 SECURITY
-    ">Admin login URL","> Adresse URL de connexion"
-    ">Save your login URL to log in to your website next time:",">Merci de noter l’adresse URL de connexion au site Web pour les prochaines connexions "
+    ">Admin login URL","> URL de connexion administrateur"
+    ">Save your login URL to log in to your website next time:",">Sauvez votre URL de connexion pour vous connecter à votre site la prochaine fois"
     ">Password",">Mot de passe"
     "Old password","Ancien mot de passe"
     "New password","Nouveau mot de passe"
     "> Change password","> Modifier le mot de passe"
 
-    "> How to restore backup","> En savoir plus sur la restauration des sauvegardes"
-    ">Improved security \(Apache only\)",">Sécurité améliorée (Uniquement pour Apache)"
-    ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">Activation de la redirection HTTPS avec WWW, mise en cache de 30 jours, autorisation uniquement des balises « iframes » ayant la même origine & prévention contre l’inspection du contenu des types de médias."
-    ">ON \(warning: may break your website\)",">Activer (Attention : le site Web peut ne plus fonctionner)"
-    ">OFF \(reset htaccess to default\)",">Désactiver (Réinitialise le fichier .htaccess)"
-    "> Read more before enabling","> En savoir plus sur le mode sécurité"
-    ">Backup","> Sauvegarde"
-    "> Backup website","> Sauvegarder le site Web"
-    ">Last 5 logins",">Les 5 dernières connexions"
+    "> How to restore backup","> Comment remettre en ligne une sauvegarde"
+    ">Improved security \(Apache only\)",">Sécurité renforcée (Apache seulement)"
+    ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">Redirection HTTPS, 30 jours de cache, iframes autorisées seulement de la même provenance, prévention du sniffing par mime type, politique plus stricte en matière de cookies et de référents."
+    ">ON \(warning: may break your website\)",">ON (Attention: peut casser votre site)"
+    ">OFF \(reset htaccess to default\)",">OFF (restaurer le fichier htaccess par défaut)"
+    "> Read more before enabling","> Lire ici avant d'activer"
+    ">Backup","> Sauvegardes"
+    "> Backup website","> Sauvegarder le site internet"
+    ">Last 5 logins",">5 dernières connexions"
 
 
 STATISTICS
     ">Statistics",">Statistiques"
-    ">Today",">Aujourd’hui"
+    ">Today",">Aujourd'hui"
     ">This week",">Cette semaine"
     ">Most popular page",">Page la plus populaire"
-    ">Pageviews last two weeks",">Pages consultées ces 2 dernières semaines"
-    ">Sessions last two weeks",">Visites de ces 2 dernières semaines"
-    ">Sessions",">Visites"
-    ">Pageviews",">Pages vues"
+    ">Pageviews last two weeks",">Vues des deux dernières semaines"
+    ">Sessions last two weeks",">Sessions des deux dernières semaines"
+    ">Sessions",">Sessions"
+    ">Pageviews",">Vues"
 
 
 FOOTER
-    ">News",">Nouvelles"
+    ">News",">News"
     ">Community",">Forum"
     ">Docs",">Documentation"
-    ">Donate",">Donation"
-    ">Shop\/Merch",">Boutique"
+    ">Donate",">Dons"
+    ">Shop\/Merch",">T-shirts"
