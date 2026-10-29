@@ -5,6 +5,7 @@ OVERLAYS
 
 BUTTONS
     "> Settings","> Réglages"
+    "return confirm\('Log out\?'\)","return confirm('Se déconnecter?')"
 
 
 MENU ITEMS
@@ -29,6 +30,10 @@ MENU
     ">Website title","> Titre du site"
     ">Page to display on homepage","> Page à afficher en page d'accueil"
     ">visit",">Afficher"
+    "title=""Make page private \(only you see it while logged in\)""","title=""Rendre la page privée (vous seul la voyez une fois connecté)"""
+    "title=""Make page public""","title=""Rendre la page publique"""
+    "lockIcon""><\/i> private<\/a>","lockIcon""></i> privée</a>"
+    "lockIcon""><\/i> public<\/a>","lockIcon""></i> publique</a>"
     "> Add page","> Ajouter une page"
 
 
@@ -39,17 +44,24 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> Vérifier les nouveautés"
+    "title=""Remove this repository from the list""","title=""Retirer ce dépôt de la liste"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""Retirer $1? Tout ce qui a été installé depuis ce dépôt est conservé."""
     "return confirm\('Remove (.*?)\?'\)","return confirm('Supprimer $1?')"
     "data-confirm=""Remove (.*?)\?""","data-confirm=""Supprimer $1?"""
     ">Active",">V Actif"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Activer $1?')"
     "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Activer $1?"""
+    "data-confirm=""Disable (.*?)\?""","data-confirm=""Désactiver $1?"""
+    "data-confirm=""This is an (.*?) plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Ceci est un plugin de type $1. Installer $2 désactivera $3. Continuer?"""
+    "data-confirm=""This is an (.*?) plugin\. Updating (.*?) will keep it enabled and disable (.*?)\. Continue\?""","data-confirm=""Ceci est un plugin de type $1. Mettre à jour $2 le laissera activé et désactivera $3. Continuer?"""
+    "data-confirm=""This is an (.*?) plugin\. Enabling (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Ceci est un plugin de type $1. Activer $2 désactivera $3. Continuer?"""
     "> Activate","> Activer"
     "> More info","> Plus d'infos"
     "> Install","> Installer"
     ">Installed version:",">Version installée:"
     ">Custom repository",">Dossier personnalisé"
     "Enter URL to custom repository","Entrer l'URL du dossier personnalisé"
+    "return confirm\('Adding unknown modules can be VERY dangerous, are you sure you want to continue\?'\)","return confirm('Ajouter des modules inconnus peut être TRÈS dangereux, voulez-vous vraiment continuer?')"
     "> Add", "> Ajouter"
     "> Read more about custom repositories",">En savoir plus sur les dossiers personnalisés"
 
@@ -67,6 +79,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">Redirection HTTPS, 30 jours de cache, iframes autorisées seulement de la même provenance, prévention du sniffing par mime type, politique plus stricte en matière de cookies et de référents."
     ">ON \(warning: may break your website\)",">ON (Attention: peut casser votre site)"
     ">OFF \(reset htaccess to default\)",">OFF (restaurer le fichier htaccess par défaut)"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('Êtes-vous sûr? Cela peut rendre votre site inutilisable si SSL n’est pas configuré correctement.')"
     "> Read more before enabling","> Lire ici avant d'activer"
     ">Backup","> Sauvegardes"
     "> Backup website","> Sauvegarder le site internet"
