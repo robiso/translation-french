@@ -201,7 +201,7 @@ ALERTS
     "<h3>New WonderCMS update available<\/h3>","<h3>Nouvelle mise à jour de WonderCMS disponible</h3>"
     "<b>Check what's new<\/b><\/u><\/a>\s+and <b>backup your website<\/b> before updating\.","<b>Découvrez les nouveautés</b></u></a> et <b>sauvegardez votre site</b> avant la mise à jour."
     "name=""backup""><i class=""installIcon""><\/i>Download backup<\/button>","name=""backup""><i class=""installIcon""></i>Télécharger la sauvegarde</button>"
-    "<i class=""refreshIcon""><\/i>Update WonderCMS ([^<]+) to ([^<]+)<\/button>","<i class=""refreshIcon""></i>Mettre à jour WonderCMS $1 vers $2</button>"
+    "<i class=""refreshIcon""><\/i>Update WonderCMS ([^<]+) to ([^<]+)<\/button>","<i class=""refreshIcon""></i>Mettre à jour WonderCMS de $1 vers $2</button>"
     "^WonderCMS successfully updated\. Wohoo!$","WonderCMS a été mis à jour. Youpi!"
     "^Page <b>([^<]*)<\/b> created\. Click <a href=([^>]*)>here<\/a> to open it\.$","Page <b>$1</b> créée. Cliquez <a href=$2>ici</a> pour l’ouvrir."
     "^Invalid parameters\.$","Paramètres non valides."
